@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote  name="DelphinusLab" fetch="." />
+  <remote  name="DelphinusLab" fetch="https://github.com/DelphinusLab" />
   <default remote="DelphinusLab" revision="main" sync-j="4" />
 
   
