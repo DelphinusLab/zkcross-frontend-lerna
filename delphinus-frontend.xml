@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote  name="DelphinusLab" fetch="https://github.com/DelphinusLab" />
+  <remote  name="zkcrossteam" fetch="." />
   <default remote="DelphinusLab" revision="main" sync-j="4" />
 
   
@@ -16,7 +17,7 @@
   </project>
   <project name="delphinus-l2-client-helper" path="l2-client-helper">
   </project>
-  <project name="delphinus-ui" path="ui">
+  <project name="zkc-ui" path="ui" remote="zkcrossteam">
   </project>
   <project name="delphinus-ts-sdk" path="ts-sdk">
   </project>
