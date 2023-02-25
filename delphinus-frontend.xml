@@ -1,25 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote  name="DelphinusLab" fetch="https://github.com/DelphinusLab" />
-  <remote  name="zkcrossteam" fetch="." />
-  <default remote="zkcrossteam" revision="main" sync-j="4" />
+  <remote  name="DelphinusLab" fetch="." />
+  <default remote="DelphinusLab" revision="main" sync-j="4" />
 
   
-  <project name="delphinus-solidity" path="solidity" remote="DelphinusLab">
+  <project name="delphinus-solidity" path="solidity">
   </project>
   <!-- <project name="delphinus-deployment" path="deployment">
   </project> -->
-  <project name="delphinus-ui-deployment-template" path="deployment" remote="DelphinusLab">
+  <project name="delphinus-ui-deployment-template" path="deployment">
   </project>
-  <project name="delphinus-web3subscriber" path="web3subscriber" remote="DelphinusLab">
+  <project name="delphinus-web3subscriber" path="web3subscriber">
   </project>
-  <project name="delphinus-crypto-rust" path="crypto-rust" remote="DelphinusLab">
+  <project name="delphinus-crypto-rust" path="crypto-rust">
   </project>
-  <project name="delphinus-l2-client-helper" path="l2-client-helper" remote="DelphinusLab">
+  <project name="delphinus-l2-client-helper" path="l2-client-helper">
   </project>
-  <project name="zkc-ui" path="ui">
+  <project name="delphinus-ui" path="ui">
   </project>
-  <project name="delphinus-ts-sdk" path="ts-sdk" remote="DelphinusLab">
+  <project name="delphinus-ts-sdk" path="ts-sdk">
   </project>
 
 </manifest>
